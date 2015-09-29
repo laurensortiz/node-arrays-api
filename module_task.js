@@ -2,8 +2,6 @@ var Promise = require('bluebird'),
   fs = Promise.promisifyAll(require('fs')),
   _ = require('lodash');
 
-
-
 function readFiles(files) {
 
   Promise.map(files, function (file) {
@@ -34,8 +32,6 @@ function readFile(file) {
       console.log('Exception ' + e);
     });
 }
-
-
 
 function abstractNumbers(arrayOfNumbers) {
 
@@ -144,7 +140,6 @@ function sumParallel(files) {
 function evaluateContent(file) {
   readFile(file);
 }
-
 
 module.exports = {
   sumParallel : sumParallel,
