@@ -1,4 +1,4 @@
-Node Test
+Node - Playing with arrays and Public API
 =====
 
 ## What do we need?
