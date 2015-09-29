@@ -145,5 +145,8 @@ function evaluateContent(file) {
   readFile(file);
 }
 
-module.exports.sumParallel = sumParallel;
-module.exports.evaluateContent = evaluateContent;
+
+module.exports = {
+  sumParallel : sumParallel,
+  evaluateContent : evaluateContent
+}
